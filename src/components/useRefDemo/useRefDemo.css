@@ -1,0 +1,42 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+.input_name {
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  padding: 10px 25px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+}
+.input_name:focus-visible {
+  outline: none;
+  border-color: crimson;
+}
+.btn {
+  color: crimson;
+  background: transparent;
+  width: 150px;
+  height: 60px;
+  font-size: 18px;
+  border: 2px solid crimson;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+}
+.btn:hover {
+  letter-spacing: normal;
+  background: #ecf0f18b;
+}
+.btn:active {
+  color: #fff;
+  background: crimson;
+  border-color: transparent;
+  letter-spacing: 1px;
+}
+
